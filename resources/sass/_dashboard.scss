@@ -1,0 +1,105 @@
+.btn{
+    padding: 3px 10px;
+    color: white;
+    border-radius: 3px;
+    &-red{
+        background-color: red;
+    }
+    &-grey{
+        background-color: grey;
+    }
+    &-green{
+        background-color: #00b386;
+    }
+    &-blue{
+        background-color: #3366ff;
+    }
+}
+
+.menu-item.active{
+    color: blue;
+}
+
+.form-add{
+    margin-top: 20px;
+}
+
+.alert.alert-danger{
+    li{
+        color: red;
+    }
+}
+
+.text-red{
+    color: red;
+}
+
+.language-html {
+    color: #f8fafc;
+    background-color: #1e293b;
+    font-size: 1em;
+    line-height: 1.7;
+    border-radius: 0.7rem;
+    padding: 15px;
+    display: flex;
+    width: 100%;
+
+}
+
+.results{
+    display: flex;
+    gap: 15px;
+    &-panel{
+        flex-direction: column;
+        width: 100%;
+        .language-html{
+            flex-direction: column;
+        }
+        del {
+            color: yellow;
+            margin: 0 5px;
+        }
+    }
+}
+
+.add-new-block{
+    header{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    form{
+        &.hide{
+            display: none;
+        }
+
+    }
+    .toggler{
+        cursor: pointer;
+        svg{
+            &.up{
+                transform: rotate(180deg);
+            }
+        }
+    }
+}
+
+textarea.block-content{
+    width: 100%;
+}
+
+.block-testing{
+    width: 50%;
+    border-bottom: 1px solid grey;
+}
+
+.testing-file{
+    transition: color .3s ease-in-out;
+    &:hover{
+        transition: color .3s ease-in-out;
+        color: #3366FF;
+    }
+    &-block{
+        border-bottom: 1px solid grey;
+    }
+}
