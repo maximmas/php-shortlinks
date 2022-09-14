@@ -1,7 +1,6 @@
-Task: 
-Create simple short links service
+Simple short links service with Laravel and Sail
 
-Results:
+How to run:
 1. Clone repository
 2. Go to project folder
 3. Run command: 'sail up' 
